@@ -15,7 +15,4 @@ class Voiture extends Vehicule
     $this->cv = $cv;
 }
 
-  public function format(): string
-  {
-    return $this->getMarque();
-  }
+  

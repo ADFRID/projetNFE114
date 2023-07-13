@@ -16,17 +16,17 @@
     </header>
 <h3 class="m-5 text-center">Ajouter une voiture</h3>
 <div class="m-5 text-center">
-    <form action="insertVehicule.php" method="post">
+    <form action="insertVoiture.php" method="post">
         <br>
-        <input class="mb-4" type="text" name="marque" placeholder=" Marque de la voiture" required>
+        <input class="mb-4" type="text" name="marque" placeholder=" Marque de la voiture" required />
         <br>
-        <input class="mb-4" type="text" name="modele" placeholder=" Modèle de la voiture">
+        <input class="mb-4" type="text" name="modele" placeholder=" Modèle de la voiture" required />
         <br>
-        <input class="mb-4" type="text" name="annee" placeholder=" Année de la voiture">
+        <input class="mb-4" type="text" name="annee" placeholder=" Année de la voiture" required />
         <br>
-        <input class="mb-4" type="text" name="portes" placeholder=" Nombre de portes">
+        <input class="mb-4" type="text" name="portes" placeholder=" Nombre de portes" required />
         <br>
-        <input class="mb-4" type="text" name="cv" placeholder=" Nombre de cv">
+        <input class="mb-4" type="text" name="cv" placeholder=" Nombre de cv" required />
         <br>
         <input type="submit">
     </form>

@@ -6,16 +6,10 @@ class Camion extends Vehicule
         string $marque,
         string $modele,
         int $annee,
-        int $contenance,
-        int $charge
+        int $contenance
     )
 } {
     parent:: __construct($marque, $modele, $annee);
     $this->contenance = $contenance;
-    $this->charge = $charge;
 }
 
-  public function format(): string
-  {
-    return $this->getMarque();
-  }

@@ -1,6 +1,7 @@
 <?php
 
 require_once 'pdo/pdo.php';
+
 $table = "voiture";
 $marque = $_POST['marque'];
 $modele = $_POST['modele'];
