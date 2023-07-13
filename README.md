@@ -30,6 +30,6 @@ BDD : MySQL
 Versioning : Git, Github
 
 ## Difficultés rencontrées
-J'ai utilisé la POO. Les classes voitures et camions sont des classe filles de la classe véhicule, elles héritent de celle-ci. J'ai utilisé PDO pour la connexion 
+J'ai utilisé la POO. Les classes voitures et camions sont des classes filles de la classe véhicule, elles héritent de celle-ci. J'ai utilisé PDO pour la connexion 
 et l'interaction avec la BDD. Il y a un try ... catch pour gérer l'exception lors de la connexion, au cas où un souci survenais.
 Mon souci est que je n'ai pas vraimment eu a utiliser les classes.
