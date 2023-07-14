@@ -22,11 +22,11 @@
         <br>
         <input class="mb-4" type="text" name="modele" placeholder=" Modèle de la voiture" required />
         <br>
-        <input class="mb-4" type="text" name="annee" placeholder=" Année de la voiture" required />
+        <input class="mb-4" type="number" name="annee" placeholder=" Année de la voiture" required />
         <br>
-        <input class="mb-4" type="text" name="portes" placeholder=" Nombre de portes" required />
+        <input class="mb-4" type="number" name="portes" placeholder=" Nombre de portes" required />
         <br>
-        <input class="mb-4" type="text" name="cv" placeholder=" Nombre de cv" required />
+        <input class="mb-4" type="number" name="cv" placeholder=" Nombre de cv" required />
         <br>
         <input type="submit">
     </form>

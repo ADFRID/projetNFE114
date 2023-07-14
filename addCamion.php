@@ -22,9 +22,9 @@
         <br>
         <input class="mb-4" type="text" name="modele" placeholder=" Modèle du camion" required />
         <br>
-        <input class="mb-4" type="text" name="annee" placeholder=" Année du camion" required />
+        <input class="mb-4" type="number" name="annee" placeholder=" Année du camion" required />
         <br>
-        <input class="mb-4" type="text" name="contenance" placeholder=" Contenance du camion" required />
+        <input class="mb-4" type="number" name="contenance" placeholder=" Contenance du camion" required />
         <br>
    
         <input type="submit">
